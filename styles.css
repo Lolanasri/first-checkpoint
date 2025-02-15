@@ -1,0 +1,45 @@
+av ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; /* Make list items inline */
+    margin-right: 15px; /* Add some space between links */
+}
+img {
+    margin: 20px auto; /* Centre horizontalement et ajoute un espace au-dessus */
+    width: 250px; /* Largeur spécifique */
+    height: 300px; /* Hauteur spécifique */
+    object-fit: cover; /* Ajuste l'image pour éviter la déformation */
+    border-radius: 10px; /* Coins arrondis */
+}
+form action {
+    display: inline;
+}
+form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap; /*  passer à la ligne si l'espace est insuffisant */
+}
+
+form label {
+    margin-right: 5px;
+}
+
+input, textarea {
+    display: inline-block;
+}
+body{
+    background: linear-gradient(to right, #008FD3, #005F91);
+    color:black;
+    line-height: 1.4;
+    margin: 0;
+    min-width: 320px;
+    font-family: 'Roboto', sans-serif;
+}
+h1 , h2 {
+    color:whitesmoke
+}
